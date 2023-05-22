@@ -26,22 +26,22 @@
             <nav>
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a id="home-content-link" class="nav-link active" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our Story</a>
+                        <a id="story-content-link" class="nav-link" href="#">Our Story</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Health Benifits</a>
+                        <a id="health-content-link" class="nav-link" href="#">Health Benifits</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Resipes</a>
+                        <a id="recipe-content-link" class="nav-link" href="#">Recipes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Shop Online</a>
+                        <a id="contact-content-link" class="nav-link" href="#">Contact Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                    <li id="menu-icon" class="nav-item">
+                        <a id="contact-content-link" class="nav-link" href="#"><img src="Asset\images\menu.png" alt=""></a>
                     </li>
                 </ul>
             </nav>
@@ -53,7 +53,7 @@
             <img src="Asset\images\home.png" class="img-fluid" alt="" />
         </div>
         <div id="home-titles" class="container">
-            <span>“ Life is better with Micro greens ”</span>
+            <span class="container">“ Life is better with Micro greens ”</span>
         </div>
         <div id="icon-group" class="container">
             <div id="icon-container" class="container">
@@ -70,6 +70,11 @@
             <br>
             <span style="font-size: 27px; color: rgb(144, 46, 78); font-weight: 600">Discover the world of
                 microgreens</span>
+            <br>
+            <br>
+            <div class="shop-now-title">
+                <h2>Shop Now <a href=""><img src="Asset\images\facebook.png" alt=""></a></h2>
+            </div>
         </div>
     </section>
     <!-- our story section -->
@@ -77,8 +82,8 @@
         <div id="story-img">
             <img src="Asset\images\story.png" alt="" />
         </div>
-        <div id="img-content" class="container">
-            <div>
+        <div id="" class="container">
+            <div id="story-img-content" class="container">
                 <h1>Our Story</h1>
                 <p class="prgrph-one">
                     We cultivate a world of high quality microgreens
@@ -93,7 +98,7 @@
         </div>
         <div id="carouselExampleSlidesOnly" class="carousel slide container" data-bs-ride="carousel">
             <div class="left-carousel">
-                <h2><b>Our Garden<br>Products</b></h2>
+                <h1>""</h1>
                 <img src="Asset\images\Mustard Pic.png" class="img-fluid" alt="">
             </div>
             <div class="carousel-inner">
@@ -112,11 +117,8 @@
             </div>
         </div>
         <div id="story-txtcontent" class="container">
-            <h1 class="header-title">
-                Our sustainability efforts
-            </h1>
             <p class="container prgrph-three">
-                We are really interested in where food will be produced in the future & solution for heath deseases.at
+                We are really interested in where food will be produced in the future & solution for heath deseases.At
                 present people are very busy & Lack of exercises & very poor concern about physical health, since
                 prevent for this issue we are growing this micro greens for Sri Lankans.
             </p>
@@ -137,6 +139,9 @@
             <div class="slider">
                 <img class="img-fluid" src="Asset\images\Shoots+banner+air.png" class="img-fluid" alt="" />
             </div>
+        </div>
+        <div class="shop-now-second container">
+            <h2><strong> Shop Now </strong><a href=""><img src="Asset\images\facebook.png" alt=""></a></h2>
         </div>
     </section>
     <!-- health benifits section -->
@@ -167,7 +172,7 @@
                 <div class="col">
                     <img src="Asset\images\Reduces-Risk.png" class="img-fluid" alt="">
                 </div>
-                <div class="col container">
+                <div class="col container health-benifit-prgrph">
                     <p>
                         Even though they are small, microgreens are a real superfood, packed with antioxidants and other
                         health-promoting nutrients.
@@ -179,7 +184,7 @@
                         health-promoting nutrients.
                         ​</p>
                 </div>
-                <div class="col container">
+                <div class="col container health-benifit-prgrph">
                     <p>
                         Harvested at the first leaves of a seedling, super nutritious microgreens have considerably
                         higher nutritional densities that mature plants.
@@ -189,13 +194,25 @@
                         other healthy oil) in your recipes – the prescence of oil helps improve the ‘bioavailability’ of
                         the fat-soluble nutrients (like carotenoids, vitamin E and vitamin K)
                         ​</p>
+                    <p>
+                        Antioxidants may help reduce the type of stress that can prevent sugar from properly
+                        entering cells.
+                    </p>
+                    <p>
+                        Antioxidant-rich fruits and vegetables, especially those rich in polyphenols, may lower
+                        the risk of various types of cancer.
+                    </p>
                 </div>
-                <div class="col container">
+                <div class="col container health-benifit-prgrph">
                     <p>
                         Carotenoids, such as beta-carotene, are thought to reduce the risk of disease, particularly
                         certain types of cancer and eye disease. Microgreens are a good source of this important
                         nutrient.
                         ​</p>
+                    <p>
+                        Micro greens are a rich source of polyphenols, a class of antioxidants linked to a lower risk of
+                        heart disease
+                    </p>
                 </div>
             </div>
         </div>
@@ -204,24 +221,25 @@
     <section id="recipe-section">
         <div id="recipe-img">
             <img src="Asset\images\recipie.png" alt="">
-            <div id="recipe-img-content" class="container">
-                <div class="container">
-                    <h1 class="content-title"><b>Recipes</b></h1>
-                    <p class="content-prgrph-one">
-                        The flavors of Micro Greens will surprise you. It is Spicy, peppery, Crunchy. You can easily
-                        combine your own ingredients to create delicious, healthy & Nutritious dishes for yourself,
-                        family &amp; Friends.
-                    </p>
-                    <p class="content-prgrph-two">You can make micro greens as different ways:</p>
-                    <ul class="list">
-                        <li>Fresh Salads</li>
-                        <li>Fresh Juices</li>
-                        <li>sandwiches</li>
-                        <li>Smoothies</li>
-                        <li>Decorations</li>
-                    </ul>
-                </div>
+        </div>
+        <div class="container">
+            <div id="recipe-img-content">
+                <h1 class="content-title"><b>Recipes</b></h1>
+                <p class="content-prgrph-one">
+                    The flavors of Micro Greens will surprise you. It is Spicy, peppery, Crunchy. You can easily
+                    combine your own ingredients to create delicious, healthy & Nutritious dishes for yourself,
+                    family &amp; Friends.
+                </p>
+                <p class="content-prgrph-two">You can make micro greens as different ways:</p>
+                <ul class="list">
+                    <li>Fresh Salads</li>
+                    <li>Fresh Juices</li>
+                    <li>Sandwiches</li>
+                    <li>Smoothies</li>
+                    <li>Decorations</li>
+                </ul>
             </div>
+        </div>
         </div>
         <div id="recipe-content" class="container salad-recipe">
             <span style="" class="container  content-prgrph-three">Tiny but perfectly formed Shoots Microgreens pack a
@@ -231,10 +249,7 @@
             <h1><strong>Salad Reciepe</strong></h1>
             <br>
             <div class="container" id="salad-recipe">
-                <div class="row">
-                    <div class="col">
-                        <img src="Asset\images\RECIPE Sorrel Waldorf Salad.png" alt="">
-                    </div>
+                <div class="row recipe">
                     <div class="col">
                         <h6>Sorrel 'Waldorf' Salad</h6>
                         <span>Featuring SHOOTS Sorrel</span><br>
@@ -243,10 +258,7 @@
                 </div>
             </div>
             <div class="container" id="salad-recipe">
-                <div class="row">
-                    <div class="col">
-                        <img src="Asset\images\RECIPE Microgreens_JPG.png" alt="">
-                    </div>
+                <div class="row  recipe">
                     <div class="col">
                         <h6>Sorrel 'Waldorf' Salad</h6>
                         <span>Featuring SHOOTS Sorrel</span><br>
@@ -255,10 +267,7 @@
                 </div>
             </div>
             <div class="container" id="salad-recipe">
-                <div class="row">
-                    <div class="col">
-                        <img src="Asset\images\RECIPE Microgreens Quinoa_JPG.png" alt="">
-                    </div>
+                <div class="row  recipe">
                     <div class="col">
                         <h6>Sorrel 'Waldorf' Salad</h6>
                         <span>Featuring SHOOTS Sorrel</span><br>
@@ -266,11 +275,8 @@
                     </div>
                 </div>
             </div>
-            <div class="container" id="salad-recipe">
-                <div class="row">
-                    <div class="col">
-                        <img src="Asset\images\RECIPE Microgreens Asparagus_JPG.png" alt="">
-                    </div>
+            <div class="container  recipe" id="salad-recipe">
+                <div class="row recipe-two">
                     <div class="col">
                         <h6>Sorrel 'Waldorf' Salad</h6>
                         <span>Featuring SHOOTS Sorrel</span><br>
@@ -278,11 +284,8 @@
                     </div>
                 </div>
             </div>
-            <div class="container" id="salad-recipe">
-                <div class="row">
-                    <div class="col">
-                        <img src="Asset\images\RECIPE Broccoli_JPG.png" alt="">
-                    </div>
+            <div class="container  recipe" id="salad-recipe">
+                <div class="row recipe-two">
                     <div class="col">
                         <h6>Sorrel 'Waldorf' Salad</h6>
                         <span>Featuring SHOOTS Sorrel</span><br>
@@ -290,11 +293,8 @@
                     </div>
                 </div>
             </div>
-            <div class="container" id="salad-recipe">
-                <div class="row">
-                    <div class="col">
-                        <img src="Asset\images\RECIPE Broccoli_JPG.png" alt="">
-                    </div>
+            <div class="container  recipe" id="salad-recipe">
+                <div class="row recipe-two">
                     <div class="col">
                         <h6>Sorrel 'Waldorf' Salad</h6>
                         <span>Featuring SHOOTS Sorrel</span><br>
@@ -312,8 +312,9 @@
                     <div class="col1">
                         <img src="Asset\images\mv2.png" alt="">
                     </div>
-                    <div class="col2 container">
+                    <div class="col2 container-fluid">
                         <h1 class="content-title"><b>Contact Us</b></h1>
+                        <br>
                         <span><b>Phone 021 456 516</b><br>
                             <b>email: team@shootsnz.co.nz</b></span>
                         <br><br>
@@ -327,7 +328,7 @@
                         <span>Sign up and get in touch.
                             We’d love to talk about how we can help</span>
                     </div>
-                    <div id="contact-form" class="col3 container">
+                    <div id="contact-form" class="col3">
                         <form>
                             <span class="form-title">Sign up and get in touch.</span>
                             <div class="form-group">
@@ -357,8 +358,10 @@
             </div>
         </div>
     </section>
-    <footer class="footer"></footer>
+    <footer id="footer" class="footer container-fluid"></footer>
     <script src="https://kit.fontawesome.com/045bd16cf0.js" crossorigin="anonymous"></script>
+    <script src="Asset\lib\jquery-3.6.4.min.js"></script>
+    <script src="Asset\scripts\index.js"></script>
 </body>
 
 </html>
