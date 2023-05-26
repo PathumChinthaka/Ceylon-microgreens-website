@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="Asset\styles\style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200&display=swap"
         rel="stylesheet" />
-    <title>Home | CeylonMicrogreens</title>
+    <title>Home | Ceylon Microgreens</title>
 </head>
 
 <!-- hero section -->
+
 <body>
     <header>
         <div id="header-section" class="container-fluid">
@@ -23,27 +24,34 @@
             <div id="logo" class="container">
                 <img src="Asset\images\UGL Shoots Logo Maroon (1).png" class="img-fluid" alt="" />
             </div>
-            <nav>
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a id="home-content-link" class="nav-link active" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="story-content-link" class="nav-link" href="#">Our Story</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="health-content-link" class="nav-link" href="#">Health Benifits</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="recipe-content-link" class="nav-link" href="#">Recipes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="contact-content-link" class="nav-link" href="#">Contact Us</a>
-                    </li>
-                    <li id="menu-icon" class="nav-item">
-                        <a id="contact-content-link" class="nav-link" href="#"><img src="Asset\images\menu.png" alt=""></a>
-                    </li>
-                </ul>
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a id="home-content-link" class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="story-content-link" class="nav-link" href="#">Our Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="health-content-link" class="nav-link" href="#">Health Benefits</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="recipe-content-link" class="nav-link" href="#">Recipes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="contact-content-link" class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li id="menu-icon" class="nav-item">
+                            <a id="contact-content-link" class="nav-link" href="#"><img src="Asset\images\menu.png"
+                                    alt=""></a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
@@ -52,37 +60,39 @@
         <div id="home-img" class="">
             <img src="Asset\images\home.png" class="img-fluid" alt="" />
         </div>
-        <div id="home-titles" class="container">
-            <span class="container">“ Life is better with Micro greens ”</span>
-        </div>
-        <div id="icon-group" class="container">
-            <div id="icon-container" class="container">
-                <div class="icons">
-                    <img src="Asset\images\icon1.png" class="img-fluid" alt="" />
+        <div id="home-titles" class="container ">
+            <span class="container title-one">“ Life is better with Micro greens ”</span>
+            <div id="icon-group" class="container">
+                <div id="icon-container" class="container-fluid">
+                    <div class="icons">
+                        <img src="Asset\images\icon1.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="icons">
+                        <img src="Asset\images\icon2.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="icons">
+                        <img src="Asset\images\icon3.png" class="img-fluid" alt="" />
+                    </div>
                 </div>
-                <div class="icons">
-                    <img src="Asset\images\icon2.png" class="img-fluid" alt="" />
+                <div>
+                    <span style="font-size: 27px; color: rgb(144, 46, 78); font-weight: 600">Discover the world of
+                        microgreens</span>
                 </div>
-                <div class="icons">
-                    <img src="Asset\images\icon3.png" class="img-fluid" alt="" />
+                <br>
+                <br>
+                <div class="shop-now-title">
+                    <h2>Shop Now <a href=""><img src="Asset\images\facebook.png" alt=""></a></h2>
                 </div>
             </div>
-            <br>
-            <span style="font-size: 27px; color: rgb(144, 46, 78); font-weight: 600">Discover the world of
-                microgreens</span>
-            <br>
-            <br>
-            <div class="shop-now-title">
-                <h2>Shop Now <a href=""><img src="Asset\images\facebook.png" alt=""></a></h2>
-            </div>
         </div>
+
     </section>
     <!-- our story section -->
     <section id="our-story-section">
         <div id="story-img">
             <img src="Asset\images\story.png" alt="" />
         </div>
-        <div id="" class="container">
+        <div id="" class="container col-md">
             <div id="story-img-content" class="container">
                 <h1>Our Story</h1>
                 <p class="prgrph-one">
@@ -117,7 +127,7 @@
             </div>
         </div>
         <div id="story-txtcontent" class="container">
-            <p class="container prgrph-three">
+            <p class="container-fluid prgrph-three">
                 We are really interested in where food will be produced in the future & solution for heath deseases.At
                 present people are very busy & Lack of exercises & very poor concern about physical health, since
                 prevent for this issue we are growing this micro greens for Sri Lankans.
@@ -163,56 +173,62 @@
         </div>
         <div id="health-section-sliders" class="container text-center">
             <div class="row row-cols-3">
-                <div class="col">
+                <div class="col slider">
                     <img src="Asset\images\100x (1).png" class="img-fluid" alt="">
+                    <div class="col container health-benifit-prgrph">
+                        <p>
+                            Even though they are small, microgreens are a real superfood, packed with antioxidants and
+                            other
+                            health-promoting nutrients.
+                            ​</p>
+                        <p>
+                            Even though they are small, microgreens are a real superfood, packed with antioxidants and
+                            other
+                            health-promoting nutrients.
+                            Even though they are small, microgreens are a real superfood, packed with antioxidants and
+                            other
+                            health-promoting nutrients.
+                            ​</p>
+                    </div>
                 </div>
-                <div class="col">
+                <div class="col slider">
                     <img src="Asset\images\AntiOxidants.png" class="img-fluid" alt="">
+                    <div class="col container health-benifit-prgrph">
+                        <p>
+                            Harvested at the first leaves of a seedling, super nutritious microgreens have considerably
+                            higher nutritional densities that mature plants.
+                            ​</p>
+                        <p>
+                            Another way to boost the nutritional value of microgreens is to use extra-virgin olive oil
+                            (or
+                            other healthy oil) in your recipes – the prescence of oil helps improve the
+                            ‘bioavailability’ of
+                            the fat-soluble nutrients (like carotenoids, vitamin E and vitamin K)
+                            ​</p>
+                        <p>
+                            Antioxidants may help reduce the type of stress that can prevent sugar from properly
+                            entering cells.
+                        </p>
+                        <p>
+                            Antioxidant-rich fruits and vegetables, especially those rich in polyphenols, may lower
+                            the risk of various types of cancer.
+                        </p>
+                    </div>
                 </div>
-                <div class="col">
+                <div class="col ">
                     <img src="Asset\images\Reduces-Risk.png" class="img-fluid" alt="">
-                </div>
-                <div class="col container health-benifit-prgrph">
-                    <p>
-                        Even though they are small, microgreens are a real superfood, packed with antioxidants and other
-                        health-promoting nutrients.
-                        ​</p>
-                    <p>
-                        Even though they are small, microgreens are a real superfood, packed with antioxidants and other
-                        health-promoting nutrients.
-                        Even though they are small, microgreens are a real superfood, packed with antioxidants and other
-                        health-promoting nutrients.
-                        ​</p>
-                </div>
-                <div class="col container health-benifit-prgrph">
-                    <p>
-                        Harvested at the first leaves of a seedling, super nutritious microgreens have considerably
-                        higher nutritional densities that mature plants.
-                        ​</p>
-                    <p>
-                        Another way to boost the nutritional value of microgreens is to use extra-virgin olive oil (or
-                        other healthy oil) in your recipes – the prescence of oil helps improve the ‘bioavailability’ of
-                        the fat-soluble nutrients (like carotenoids, vitamin E and vitamin K)
-                        ​</p>
-                    <p>
-                        Antioxidants may help reduce the type of stress that can prevent sugar from properly
-                        entering cells.
-                    </p>
-                    <p>
-                        Antioxidant-rich fruits and vegetables, especially those rich in polyphenols, may lower
-                        the risk of various types of cancer.
-                    </p>
-                </div>
-                <div class="col container health-benifit-prgrph">
-                    <p>
-                        Carotenoids, such as beta-carotene, are thought to reduce the risk of disease, particularly
-                        certain types of cancer and eye disease. Microgreens are a good source of this important
-                        nutrient.
-                        ​</p>
-                    <p>
-                        Micro greens are a rich source of polyphenols, a class of antioxidants linked to a lower risk of
-                        heart disease
-                    </p>
+                    <div class="col container health-benifit-prgrph">
+                        <p>
+                            Carotenoids, such as beta-carotene, are thought to reduce the risk of disease, particularly
+                            certain types of cancer and eye disease. Microgreens are a good source of this important
+                            nutrient.
+                            ​</p>
+                        <p>
+                            Micro greens are a rich source of polyphenols, a class of antioxidants linked to a lower
+                            risk of
+                            heart disease
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -332,7 +348,7 @@
                         <form>
                             <span class="form-title">Sign up and get in touch.</span>
                             <div class="form-group">
-                                <label class="text-left" for="exampleInputEmail1"><i>Password</i></label>
+                                <label class="text-left" for="exampleInputEmail1"><i>E-mail</i></label>
                                 <input type="email" class="form-control" id="exampleInputEmail1"
                                     aria-describedby="emailHelp" placeholder="Enter email">
                             </div>
@@ -358,7 +374,9 @@
             </div>
         </div>
     </section>
-    <footer id="footer" class="footer container-fluid"></footer>
+    <!-- <div class="container-fluid" id="footer-container">
+      <footer class="footer container-fluid"></footer>
+    </div> -->
     <script src="https://kit.fontawesome.com/045bd16cf0.js" crossorigin="anonymous"></script>
     <script src="Asset\lib\jquery-3.6.4.min.js"></script>
     <script src="Asset\scripts\index.js"></script>
