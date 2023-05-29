@@ -304,6 +304,11 @@ body {
 #health-section-sliders {
   position: relative;
   bottom: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  left: 8%;
 }
 
 #health-section-sliders>div>div {
@@ -544,7 +549,7 @@ form {
   bottom: 0;
   margin-top: 200px;
   width: 100%;
-  height: 150px;
+  height: 200px;
   background-color: #5f0038;
 }
 
@@ -552,114 +557,251 @@ form {
 /* media quaries */
 
 @media (max-width:375px) {
+
   body {
-    overflow: hidden;
+    overflow-x: hidden;
+  }
+
+  #icon-container {
+    position: relative;
+    bottom: 34px !important;
+    display: flex;
+    right: 20px !important;
+    margin: 20px;
+    justify-content: center;
+    height: 94px !important;
   }
 
   #icon-container>.icons {
-    height: 145px;
-    width: auto;
-  }
-
-  #story-img {
-    visibility: hidden;
+    padding: 3px;
+    width: 113px;
+    height: 256px;
   }
 
   #story-img-content {
-    position: absolute;
-    left: 0;
-    top: 50px;
-    font-size: small;
-    padding: 4px;
-    width: 366px;
-  }
-
-  #story-txtcontent {
-    position: absolute;
-    top: 40em;
-    width: 375px;
-    text-align: left;
+    position: relative;
+    height: 420px;
+    width: 400px;
+    left: -5px !important;
+    bottom: -6rem !important;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left !important;
+    padding: 5px;
+    background-color: white;
+    font-family: "Poppins";
   }
 
   #story-slider {
-    position: absolute;
-    top: 47.5em;
-    display: block;
-    left: 65px;
-    margin-bottom: 10px;
+    bottom: 22em !important;
+    left: 7em !important;
+    position: relative;
+    display: flex;
+    height: 400px !important;
+    justify-content: center;
+    background-size: cover;
   }
 
-  #health-img {
-    display: none;
+  .prgrph-three {
+    position: relative;
+    color: rgb(144, 46, 78);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px !important;
+    bottom: 14em !important;
   }
+
+  .shop-now-second {
+    position: relative;
+    bottom: -86em !important;
+    left: 10px !important;
+    overflow: hidden !important;
+    font-family: "Poppins";
+    color: #74b04f;
+    text-align: center;
+  }
+
 
   #health-img-content {
     position: relative;
-    top: 30px;
-    left: 0;
-    margin-right: 66px;
-    width: 300px;
-    font-size: small;
-    padding: 3px;
+    height: 526px;
+    width: 300px !important;
+    left: 0 !important;
+    bottom: -6rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5px;
+    background-color: #af7597;
+    font-family: "Poppins";
   }
 
   #health-section-sliders {
     position: relative;
-    top: 5em;
-    display: block;
+    bottom: -10rem !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
-  .slider {
-    display: block;
-  }
-
-  #footer-container {
-    display: none;
-  }
-
-  .left-carousel {
-    display: none;
-  }
-
-  .carousel-inner {
-    display: none;
+  #recipe-content {
+    position: relative;
+    top: -8em !important;
+    text-align: justify;
+    font-family: "Poppins";
+    font-size: small !important;
   }
 
   #recipe-img-content {
     position: relative;
     justify-items: baseline;
+    flex-direction: column;
     text-align: center;
-    width: 400px;
-    height: 354px;
-    right: 10px;
-    bottom: 42rem;
+    width: 308px;
+    height: 400px;
+    left: 0 !important;
+    bottom: 43rem;
     background-color: white;
     font-family: "Poppins";
     padding: 5px;
-    font-size: small;
+    top: -200px;
+    font-size: smaller;
   }
 
   .content-prgrph-three {
     color: rgb(144, 46, 78);
+    left: auto;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
+    word-wrap: break-word;
+    width: 351px !important;
+    margin-right: 100px;
+  }
+
+  .contact-us-banner {
+    position: absolute;
+    top: 14em !important;
+    left: 11px !important;
+    background-color: whitesmoke;
+    width: 350px;
+    height: 333px;
+  }
+
+  .content-image>img {
+    display: none !important;
+  }
+
+  .contact-us-details {
+    position: absolute;
+    bottom: 5cm !important;
+    left: 0 !important;
+    background-color: whitesmoke;
+    width: 470px;
+    height: 350px
+  }
+
+  #contact-form {
+    position: relative;
+    right: 6em;
+    overflow: hidden;
+    top: 24em;
+  }
+
+}
+
+@media (max-width:700px) {
+  .left-carousel {
+    display: none;
+  }
+
+  #carouselExampleSlidesOnly {
+    margin: 5px;
+  }
+}
+
+@media (max-width:820px) {
+  #health-img-content {
+    position: relative;
+    height: 432px !important;
+    width: 400px !important;
+    left: calc(100%/6.3);
+    bottom: 16rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 341px;
-    text-align: justify;
+    text-align: center;
+    padding: 5px;
+    background-color: #af7597;
+    font-family: "Poppins";
+  }
+
+  #health-section-sliders {
+    position: relative;
+    bottom: 12rem !important;
+  }
+
+  .contact-us-banner {
+    position: absolute;
+    bottom: 13cm !important;
+    left: 398px !important;
+    background-color: whitesmoke;
+    width: 421px;
+    height: 333px;
+  }
+}
+
+@media (max-width:1050px) {
+
+  #story-img-content {
+    position: relative;
+    height: 420px !important;
+    width: 400px !important;
+    left: calc(100%/3.5);
+    bottom: -6rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left !important;
+    padding: 5px;
+    background-color: white;
+    font-family: "Poppins";
+  }
+
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: none !important;
+  }
+
+  #recipe-img-content {
+    position: relative;
+    justify-items: baseline;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    left: 133px !important;
+    bottom: 13rem !important;
+    background-color: white;
+    font-family: "Poppins";
+    padding: 5px;
   }
 
   #recipe-content {
     position: relative;
-    left: 0;
+    top: -11em !important;
+    text-align: center;
+    font-family: "Poppins";
   }
-}
 
-@media (max-width:1052px) {
-  #recipe-img-content {
-    position: relative;
-    right: 150px;
-    border: 2px solid red;
-  }
 }
