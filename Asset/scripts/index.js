@@ -1,5 +1,6 @@
 // document ready function
 
+
 $(document).ready(function () {
     $('#our-story-section').css("display","none");
     $('#health-benifit-section').css("display","none");
