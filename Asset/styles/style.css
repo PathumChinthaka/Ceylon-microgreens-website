@@ -417,45 +417,19 @@ body {
   word-wrap: break-word;
 }
 
-#salad-recipe {
+.recipe-content>div{
   position: relative;
-  width: 440px;
-  text-align: left;
-  font-size: 15px;
-  margin-bottom: 40px;
-  left: calc(100%/8.7);
+  width:100%;
+  margin: 50px;
+  text-align: justify;
+  top: 2em;
 }
 
-#salad-recipe>.row>div>img {
-  position: relative;
-  top: 1px;
-  left: 5em;
-  height: 80px;
+.recipe-img{
+  margin-top: 20px;
+  width: 220px;
 }
 
-#salad-recipe>.col {
-  position: relative;
-  right: 25px;
-}
-
-#salad-recipe>.col>h6 {
-  margin-bottom: 2px;
-}
-
-.col>span {
-  margin-bottom: 5px;
-}
-
-.col>button {
-  height: 30px;
-  width: 125px;
-  text-align: center;
-  margin-top: 3px;
-  background-color: transparent;
-  background-color: #74b04f;
-  border: none;
-  color: white;
-}
 
 /* contact us section */
 
